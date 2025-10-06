@@ -1,0 +1,84 @@
+body {
+  margin: 20px;
+  border: 10px solid #05101c;
+  border-radius: 20px;
+  background-color: rgb(247, 236, 221);
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.header-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+.invitation {
+  text-align: center;
+  padding: 10px;
+  font-family: "Brush Script MT", cursive;
+  color: black;
+}
+
+section h2,
+section h3 {
+  margin-top: 0;
+  font-family: Brush Script MT, cursive;
+  font-weight: 300;
+}
+
+section h2 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+section h3 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+section .text,
+section .date,
+section .time {
+  font-family: "Georgia", sans-serif;
+  font-size: 1.5rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.image img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 5px solid #231307;
+  background-color: rgb(252, 251, 249);
+  padding: 8px;
+}
+
+.Text-Content {
+  margin-top: -100px;
+  text-align: center;
+}
+
+.Text-Content h2,
+.Text-Content h3,
+.Text-Content .text,
+.Text-Content .date,
+.Text-Content .time {
+  margin: 0 0 5px 0;
+  line-height: 1.2;
+}
